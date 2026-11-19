@@ -1,7 +1,7 @@
 {
-  "version": "0.3.2",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.3.2/tcc-pco-sync.zip",
-  "sha256": "3783fb52f33b7e5ac9ee91e53424de00293db261aae7abf1cd3c50fe99d0ad62",
-  "notes": "Planning Center Sync 0.3.2: tidier update notes\n\nFirst version delivered through the WordPress update screen. No change to how events sync.",
-  "date": "2026-11-19T22:26:52Z"
+  "version": "0.4.0",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.4.0/tcc-pco-sync.zip",
+  "sha256": "1b75535557c629eb5d14d56c7da48e0984dbcbd28f765c66802342f583709f11",
+  "notes": "Planning Center Sync 0.4.0: choose rooms per event, and show rooms as chips\n\n- On the website tab: each event lists its booked rooms with a tick to show or hide them on that event only. Until you save there, the event follows the Rooms tab.\n- Event pages show rooms as rounded labels in the same style as the event cards.",
+  "date": "2026-11-19T23:16:22Z"
 }
