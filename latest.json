@@ -1,7 +1,7 @@
 {
-  "version": "0.3.1",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.3.1/tcc-pco-sync.zip",
-  "sha256": "21f0ea3eec8d2a49ca3f8660ba2074b362e0de906fdab2c3441917f922e192d1",
-  "notes": "Planning Center Sync 0.3.1: updates come from a public releases repository\n\nNo key is stored on the website any more. The download is checked against a\nSHA-256 checksum before it is installed.\n\nCo-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>",
-  "date": "2026-11-19T22:25:11Z"
+  "version": "0.3.2",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.3.2/tcc-pco-sync.zip",
+  "sha256": "3783fb52f33b7e5ac9ee91e53424de00293db261aae7abf1cd3c50fe99d0ad62",
+  "notes": "Planning Center Sync 0.3.2: tidier update notes\n\nFirst version delivered through the WordPress update screen. No change to how events sync.",
+  "date": "2026-11-19T22:26:52Z"
 }
