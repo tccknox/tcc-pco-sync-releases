@@ -1,7 +1,7 @@
 {
-  "version": "0.7.1",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.7.1/tcc-pco-sync.zip",
-  "sha256": "460daabdc00145e185d756b413b1cbb2fb0e317cdfd1e27eef7c69626f4fbedc",
-  "notes": "Planning Center Sync 0.7.1: no doubled description when replacing a hand-made event\n\n- When the hand-made event's page says the same as the Planning Center description, it is not carried over, so the text shows once.\n- The plugin's lists show the text visitors will get (description or summary, as set on the Settings tab).",
-  "date": "2026-11-20T04:22:00Z"
+  "version": "0.7.2",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.7.2/tcc-pco-sync.zip",
+  "sha256": "5007e982fdab1cbf48165cf9cbf81b399e140e09d313a9fba89473a9a9fdefb6",
+  "notes": "Planning Center Sync 0.7.2: fallback graphic for every event, and unpublished events leave the lists\n\n- An event with no graphic of its own (hand-made or from Planning Center) is shown with the fallback graphic from the Settings tab. Nothing is saved onto the event.\n- An event taken off Church Center is no longer listed in the plugin. Publish it again and it comes back.",
+  "date": "2026-11-20T04:33:08Z"
 }
