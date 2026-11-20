@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.5.0/tcc-pco-sync.zip",
-  "sha256": "74799d7c989cf10e50ad11a0e1985ee96bb0f21f05b1fa31e8189c46f28695ce",
-  "notes": "Planning Center Sync 0.5.0: passed events are retired, and sync status and rooms on the event edit screen\n\n- An event whose last date is over is no longer listed in the plugin. Its page stays on the website with the last details it had and is not changed again.\n- The event edit screen shows whether the event is kept up to date, stopped, or passed, and has the room ticks for that event.",
-  "date": "2026-11-20T01:42:31Z"
+  "version": "0.5.1",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.5.1/tcc-pco-sync.zip",
+  "sha256": "bb4e8e3a1b2b1aaa05e38fb4bfd07b171dc15755217d516697c5aa89d547bf6b",
+  "notes": "Planning Center Sync 0.5.1: Register button text can be set per event\n\n- The event edit screen has a 'Registration button text' box. If filled in, that event's Register button uses it; otherwise the usual text shows.",
+  "date": "2026-11-20T01:48:11Z"
 }
