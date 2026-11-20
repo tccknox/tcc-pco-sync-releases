@@ -1,7 +1,7 @@
 {
-  "version": "0.5.1",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.5.1/tcc-pco-sync.zip",
-  "sha256": "bb4e8e3a1b2b1aaa05e38fb4bfd07b171dc15755217d516697c5aa89d547bf6b",
-  "notes": "Planning Center Sync 0.5.1: Register button text can be set per event\n\n- The event edit screen has a 'Registration button text' box. If filled in, that event's Register button uses it; otherwise the usual text shows.",
-  "date": "2026-11-20T01:48:11Z"
+  "version": "0.6.0",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.6.0/tcc-pco-sync.zip",
+  "sha256": "508684e261532738e0a210dc040dc36ee170d968ffcfc048f939b98878f3a8da",
+  "notes": "Planning Center Sync 0.6.0: full control over what shows for each event\n\n- Show or hide the description, Register button, location and map, rooms and end time: site-wide on the Settings tab, and per event on its edit screen.\n- Keep the website's version of the title, date and time, graphic, location or categories for one event. Untick to hand it back to Planning Center.\n- Choose the description per event: Planning Center summary, Planning Center description, or your own text.\n- Fallback graphic (a default, and one per category) for events with no graphic in Planning Center.\n- Tags tab: mark a tag to approve its events automatically.\n- Set how many upcoming dates to keep for one repeating event.\n- Edit in Planning Center links, and a Dashboard box showing whether the sync is healthy.\n- Reads every published event, not only the first 100.",
+  "date": "2026-11-20T02:20:25Z"
 }
