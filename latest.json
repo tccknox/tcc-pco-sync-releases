@@ -1,7 +1,7 @@
 {
-  "version": "0.6.1",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.6.1/tcc-pco-sync.zip",
-  "sha256": "3d2c25422908037b544d13e0c16c397567973c70d6f75a8afdcc8a384ee85035",
-  "notes": "Planning Center Sync 0.6.1: show switches work inside the event page template\n\n- The location and end time switches now take effect on event pages (the page template was being mistaken for the event).",
-  "date": "2026-11-20T02:24:23Z"
+  "version": "0.6.2",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.6.2/tcc-pco-sync.zip",
+  "sha256": "82d82e6f7bf9fd89c880ece9c88ba621124e94265921f6f0d7c3602e64cc9bfb",
+  "notes": "Planning Center Sync 0.6.2: one copy of each graphic, and Hide for stopped events\n\n- A graphic is copied into the Media Library once and shared by every date and every event that uses the same picture, even when Planning Center lists it as separate uploads.\n- Stopped events have a Hide button.",
+  "date": "2026-11-20T04:13:32Z"
 }
