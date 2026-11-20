@@ -1,7 +1,7 @@
 {
-  "version": "0.9.1",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.9.1/tcc-pco-sync.zip",
-  "sha256": "98a395663c1c47f36733dc75b9022f2abe3be72e422d844958b304582dea7d85",
-  "notes": "Planning Center Sync 0.9.1: Help tab matches the new wording on the event screen",
-  "date": "2026-11-20T05:34:44Z"
+  "version": "0.9.2",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.9.2/tcc-pco-sync.zip",
+  "sha256": "261d07b1d90aa636bc6bb3be8695d0ad8ff2ff9bd8c19a61bda0cdfe62e20f4e",
+  "notes": "Planning Center Sync 0.9.2: event cards pick up a new default or category graphic straight away\n\nDivi keeps card pictures in its saved style files, which a Settings save did not clear.\nThe plugin now clears them (and the page caches) when a graphic setting changes.",
+  "date": "2026-11-20T16:38:43Z"
 }
