@@ -1,7 +1,7 @@
 {
-  "version": "0.8.0",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.8.0/tcc-pco-sync.zip",
-  "sha256": "fad170082307b5dd8379ed179658aec0127dd2a519d71f031e576e9dda244b5e",
-  "notes": "Planning Center Sync 0.8.0: a Help tab, and tidier screens\n\n- New Help tab in plain English: what the plugin does, how an event gets on the website, where to find things, what it is connected to, and what to do when something looks wrong.\n- Events are listed as panels with clear labels and full-width buttons, and the lists work on narrow screens.\n- A status strip at the top shows whether the last check worked.\n- The box on the event edit screen is grouped into sections with a status label.",
-  "date": "2026-11-20T05:07:02Z"
+  "version": "0.9.0",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.9.0/tcc-pco-sync.zip",
+  "sha256": "16e0e5ad9b51af81e26cd9dd618420461e2e5c7165a33c18127cc0f24b2b5357",
+  "notes": "Planning Center Sync 0.9.0: Settings, Tags, Rooms and the event box redesigned\n\n- Settings is split into panels (connection, what shows, descriptions, graphics, updates) with a line under each choice saying what it does, and steps for getting the Planning Center values.\n- Tags and Rooms show a summary, clearer rows, and a Save bar that stays in view.\n- The box on the event edit screen has plainer wording, opens the text box only when you choose your own description, and says when choices are saved.",
+  "date": "2026-11-20T05:31:12Z"
 }
