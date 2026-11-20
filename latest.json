@@ -1,7 +1,7 @@
 {
-  "version": "0.6.2",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.6.2/tcc-pco-sync.zip",
-  "sha256": "82d82e6f7bf9fd89c880ece9c88ba621124e94265921f6f0d7c3602e64cc9bfb",
-  "notes": "Planning Center Sync 0.6.2: one copy of each graphic, and Hide for stopped events\n\n- A graphic is copied into the Media Library once and shared by every date and every event that uses the same picture, even when Planning Center lists it as separate uploads.\n- Stopped events have a Hide button.",
-  "date": "2026-11-20T04:13:32Z"
+  "version": "0.7.0",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.7.0/tcc-pco-sync.zip",
+  "sha256": "d09323a1c20c63e77d1b51936ea73633e29759ff192f8fd00e73dd564c18d70e",
+  "notes": "Planning Center Sync 0.7.0: replace a hand-made event when approving\n\n- The Waiting for approval tab shows when the website already has a hand-made event with the same name. Ticked ones go to the Trash on approval, so the event is not listed twice.\n- The hand-made event's graphic, page content and categories carry over to the Planning Center event.\n- New dates of a repeating event keep the page content of the date before.",
+  "date": "2026-11-20T04:19:17Z"
 }
