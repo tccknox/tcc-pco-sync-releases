@@ -1,7 +1,7 @@
 {
-  "version": "0.7.2",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.7.2/tcc-pco-sync.zip",
-  "sha256": "5007e982fdab1cbf48165cf9cbf81b399e140e09d313a9fba89473a9a9fdefb6",
-  "notes": "Planning Center Sync 0.7.2: fallback graphic for every event, and unpublished events leave the lists\n\n- An event with no graphic of its own (hand-made or from Planning Center) is shown with the fallback graphic from the Settings tab. Nothing is saved onto the event.\n- An event taken off Church Center is no longer listed in the plugin. Publish it again and it comes back.",
-  "date": "2026-11-20T04:33:08Z"
+  "version": "0.8.0",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.8.0/tcc-pco-sync.zip",
+  "sha256": "fad170082307b5dd8379ed179658aec0127dd2a519d71f031e576e9dda244b5e",
+  "notes": "Planning Center Sync 0.8.0: a Help tab, and tidier screens\n\n- New Help tab in plain English: what the plugin does, how an event gets on the website, where to find things, what it is connected to, and what to do when something looks wrong.\n- Events are listed as panels with clear labels and full-width buttons, and the lists work on narrow screens.\n- A status strip at the top shows whether the last check worked.\n- The box on the event edit screen is grouped into sections with a status label.",
+  "date": "2026-11-20T05:07:02Z"
 }
