@@ -1,7 +1,7 @@
 {
-  "version": "0.10.0",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.10.0/tcc-pco-sync.zip",
-  "sha256": "c23d23043c81ae58f92216af0906e7aa4e4dc74ba726cb550630f922a3236920",
-  "notes": "Code tab and AI prompts in both plugins; Help tabs tidied\n\nTCC Website Features 0.5.0 and Planning Center Sync 0.10.0.\n\n- New Code tab: an administrator can see and edit a feature's code. The edit\n  is saved as a separate copy and the original is never changed, so one button\n  puts it back. An edit with a typing mistake is refused; one that causes an\n  error switches itself off and the original runs again.\n- AI prompts: a ready-made briefing for an AI assistant for each feature and\n  for each plugin, with copy buttons, for people without access to GitHub.\n- Help tabs: jump links, troubleshooting grouped by part of the website, and\n  new panels on changing the code and asking an AI assistant.\n- Planning Center Sync: the sync code moved, unchanged, from the main file to\n  sync.php so it can be edited like the other files.",
-  "date": "2026-11-21T16:27:56Z"
+  "version": "0.10.1",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.10.1/tcc-pco-sync.zip",
+  "sha256": "3b4714f7914114b1d4e04fd7c6f1e5df1272aed66b4314e680358a76c7d550aa",
+  "notes": "Code pages combined with the Features and Settings tabs\n\nTCC Website Features 0.5.1 and Planning Center Sync 0.10.1.\n\n- TCC Website: the Code tab is gone. Each feature on the Features tab has a\n  link under its switch, See or edit the code. How editing works, the Help\n  tab's own file and the AI prompt are in a panel at the bottom of Features.\n- Planning Center: the Code tab is gone. The plugin's files are listed in a\n  panel at the bottom of the Settings tab.\n- Help tabs and AI prompts say where to find the code now.",
+  "date": "2026-11-21T16:41:43Z"
 }
