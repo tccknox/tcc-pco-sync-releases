@@ -1,7 +1,7 @@
 {
-  "version": "0.9.2",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.9.2/tcc-pco-sync.zip",
-  "sha256": "261d07b1d90aa636bc6bb3be8695d0ad8ff2ff9bd8c19a61bda0cdfe62e20f4e",
-  "notes": "Planning Center Sync 0.9.2: event cards pick up a new default or category graphic straight away\n\nDivi keeps card pictures in its saved style files, which a Settings save did not clear.\nThe plugin now clears them (and the page caches) when a graphic setting changes.",
-  "date": "2026-11-20T16:38:43Z"
+  "version": "0.10.0",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.10.0/tcc-pco-sync.zip",
+  "sha256": "c23d23043c81ae58f92216af0906e7aa4e4dc74ba726cb550630f922a3236920",
+  "notes": "Code tab and AI prompts in both plugins; Help tabs tidied\n\nTCC Website Features 0.5.0 and Planning Center Sync 0.10.0.\n\n- New Code tab: an administrator can see and edit a feature's code. The edit\n  is saved as a separate copy and the original is never changed, so one button\n  puts it back. An edit with a typing mistake is refused; one that causes an\n  error switches itself off and the original runs again.\n- AI prompts: a ready-made briefing for an AI assistant for each feature and\n  for each plugin, with copy buttons, for people without access to GitHub.\n- Help tabs: jump links, troubleshooting grouped by part of the website, and\n  new panels on changing the code and asking an AI assistant.\n- Planning Center Sync: the sync code moved, unchanged, from the main file to\n  sync.php so it can be edited like the other files.",
+  "date": "2026-11-21T16:27:56Z"
 }
