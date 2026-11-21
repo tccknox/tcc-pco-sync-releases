@@ -1,7 +1,7 @@
 {
-  "version": "0.2.0",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.2.0/tcc-site-features/tcc-site-features.zip",
-  "sha256": "50f00ea2b4d7ac139585ba6b4df9264997f6fba3ae516271b69f0324d4c99d29",
-  "notes": "TCC Website Features 0.2.0: a new search page for the whole website\n\nSearching from the main menu now opens a results page in the church's own look:\nthe three best matches first, then pages, upcoming events, sermons, Trinity Talk\nand community groups in their own groups, with a \"See all\" page for long lists.\n\nSearch now reads sermon descriptions, speaker names and categories (Bible book,\ntopic, series) and community group details, not only titles and page text. It\ntries the closest spelling when nothing is found, and leaves out past events.\n\nA search limited to one kind of content (such as a sermon-only search) keeps\nits own page. Switching the feature off puts the older results page back, and\nthe Features tab says so if anything the page depends on goes missing.",
-  "date": "2026-11-21T03:41:05Z"
+  "version": "0.2.1",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.2.1/tcc-site-features/tcc-site-features.zip",
+  "sha256": "57bb2130b4003838645528c016cce3067689dfe9d734e945b69a2fb4de7b0173",
+  "notes": "TCC Website Features 0.2.1: a smarter website search, and a Search tab\n\nSearch now knows words that mean the same: a search for \"kids\" also finds\n\"children\" and \"nursery\". The list is under TCC Website > Search and can be\nchanged there.\n\nThe same tab lists what visitors searched for and could not find, so a missing\npage or a missing word can be spotted. Only the words are kept.\n\nA word now matches only where a word starts (\"men\" finds \"Men's Ministry\", not\n\"moment\"), and community groups marked as not active are left out.",
+  "date": "2026-11-21T03:57:45Z"
 }
