@@ -1,7 +1,7 @@
 {
-  "version": "0.5.2",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.5.2/tcc-site-features/tcc-site-features.zip",
-  "sha256": "514887d36c0e0c3ae302caf728a584700c9b60ed1db7f3c17e277e20ef73a253",
-  "notes": "TCC Website Features 0.5.2: a category name with commas is kept as one category\n\nTyping a series name such as \"Faith, Hope, Love\" into \"+ Add New Category\"\non a sermon made three categories, because WordPress splits the name at its\ncommas. The new feature \"Category names keep their commas\" keeps the whole\nname as one category. Names without a comma and the Parent choice work as\nbefore. Switch it on under TCC Website > Features.\n\nAlso records the 50 Years heading, the Divi editor check and the cause of\nthe stray categories in the open items list.",
-  "date": "2026-11-21T20:25:03Z"
+  "version": "0.5.3",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.5.3/tcc-site-features/tcc-site-features.zip",
+  "sha256": "66d378b1bca2cbda6de8278d95dd630cc0013eb30fc63267cb32c0cd1b25f983",
+  "notes": "TCC Website Features 0.5.3: older sermons show their audio player again\n\nSermons from June 2023 to September 2024 hold Buzzsprout's older embed\naddress (no /episodes/ in it), which the audio player did not accept.\nBoth forms are accepted now.",
+  "date": "2026-11-21T21:27:24Z"
 }
