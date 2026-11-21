@@ -1,7 +1,7 @@
 {
-  "version": "0.2.1",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.2.1/tcc-site-features/tcc-site-features.zip",
-  "sha256": "57bb2130b4003838645528c016cce3067689dfe9d734e945b69a2fb4de7b0173",
-  "notes": "TCC Website Features 0.2.1: a smarter website search, and a Search tab\n\nSearch now knows words that mean the same: a search for \"kids\" also finds\n\"children\" and \"nursery\". The list is under TCC Website > Search and can be\nchanged there.\n\nThe same tab lists what visitors searched for and could not find, so a missing\npage or a missing word can be spotted. Only the words are kept.\n\nA word now matches only where a word starts (\"men\" finds \"Men's Ministry\", not\n\"moment\"), and community groups marked as not active are left out.",
-  "date": "2026-11-21T03:57:45Z"
+  "version": "0.5.0",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.5.0/tcc-site-features/tcc-site-features.zip",
+  "sha256": "42a891e52c326439518cffa4c6ec584ec150346ea302ac0f013a66d204d616dd",
+  "notes": "Code tab and AI prompts in both plugins; Help tabs tidied\n\nTCC Website Features 0.5.0 and Planning Center Sync 0.10.0.\n\n- New Code tab: an administrator can see and edit a feature's code. The edit\n  is saved as a separate copy and the original is never changed, so one button\n  puts it back. An edit with a typing mistake is refused; one that causes an\n  error switches itself off and the original runs again.\n- AI prompts: a ready-made briefing for an AI assistant for each feature and\n  for each plugin, with copy buttons, for people without access to GitHub.\n- Help tabs: jump links, troubleshooting grouped by part of the website, and\n  new panels on changing the code and asking an AI assistant.\n- Planning Center Sync: the sync code moved, unchanged, from the main file to\n  sync.php so it can be edited like the other files.",
+  "date": "2026-11-21T16:27:59Z"
 }
