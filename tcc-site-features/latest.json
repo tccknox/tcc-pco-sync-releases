@@ -1,7 +1,7 @@
 {
-  "version": "0.1.1",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.1.1/tcc-site-features/tcc-site-features.zip",
-  "sha256": "c962e9155f68f359d027ec4ad1f7a0eef997941a08654b144005a075f5a1814a",
-  "notes": "TCC Website Features 0.1.1: the Features tab notices an old snippet that only runs on public pages\n\nA feature that is switched off now says \"Off here\" when its old Code Snippets copy is still switched on, even when that snippet only runs on the public pages (the forgiving menu hover). Nothing changes for visitors.",
-  "date": "2026-11-20T19:06:39Z"
+  "version": "0.2.0",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.2.0/tcc-site-features/tcc-site-features.zip",
+  "sha256": "50f00ea2b4d7ac139585ba6b4df9264997f6fba3ae516271b69f0324d4c99d29",
+  "notes": "TCC Website Features 0.2.0: a new search page for the whole website\n\nSearching from the main menu now opens a results page in the church's own look:\nthe three best matches first, then pages, upcoming events, sermons, Trinity Talk\nand community groups in their own groups, with a \"See all\" page for long lists.\n\nSearch now reads sermon descriptions, speaker names and categories (Bible book,\ntopic, series) and community group details, not only titles and page text. It\ntries the closest spelling when nothing is found, and leaves out past events.\n\nA search limited to one kind of content (such as a sermon-only search) keeps\nits own page. Switching the feature off puts the older results page back, and\nthe Features tab says so if anything the page depends on goes missing.",
+  "date": "2026-11-21T03:41:05Z"
 }
