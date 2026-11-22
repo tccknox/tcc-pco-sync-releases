@@ -1,7 +1,7 @@
 {
-  "version": "0.5.3",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.5.3/tcc-site-features/tcc-site-features.zip",
-  "sha256": "66d378b1bca2cbda6de8278d95dd630cc0013eb30fc63267cb32c0cd1b25f983",
-  "notes": "TCC Website Features 0.5.3: older sermons show their audio player again\n\nSermons from June 2023 to September 2024 hold Buzzsprout's older embed\naddress (no /episodes/ in it), which the audio player did not accept.\nBoth forms are accepted now.",
-  "date": "2026-11-21T21:27:24Z"
+  "version": "0.5.4",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.5.4/tcc-site-features/tcc-site-features.zip",
+  "sha256": "c33b957b755518fc0af446b67a4128beba2f641c9bc6cabdc6c7e90d728bf466",
+  "notes": "TCC Website Features 0.5.4: phone header stays on one line with WP Rocket's Remove Unused CSS\n\nOn pages where Divi prints its styles inside the page (Events, Sermons, series, search, and any page on its first view after a Divi save), WP Rocket put those styles before Divi's defaults, so on phones the logo, Give and Menu stacked on three lines. WP Rocket is now told to leave those style blocks in place.",
+  "date": "2026-11-22T00:22:28Z"
 }
