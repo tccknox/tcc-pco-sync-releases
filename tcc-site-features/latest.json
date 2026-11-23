@@ -1,7 +1,7 @@
 {
-  "version": "0.9.7",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.9.7/tcc-site-features/tcc-site-features.zip",
-  "sha256": "453e47cf336b0c24f4d401de7db0dea6b2720d4607eecdea2bea3e64915e9df3",
-  "notes": "TCC Website Features 0.9.7: filter bars preview in the Divi editor\n\n- Sermons: the filter bar is styled in the Divi editor too, as it is on the website\n  (before, the editor showed plain words and bare menus).\n- Community Groups: the filter bar shows in the Divi editor as a plain preview, with a\n  grey note saying the buttons and filtering work on the website (before, it was hidden there).\n- Nothing changes for visitors. Help tab and AI prompts updated.\n\nTested on staging in the Divi editor and signed out. Nothing on the live site was changed.",
-  "date": "2026-11-23T04:08:03Z"
+  "version": "0.9.8",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.9.8/tcc-site-features/tcc-site-features.zip",
+  "sha256": "8f06ddf26eb2bf7188d734b4261ce789ffe9da2e5b075e344d1ea3f1fcee82cf",
+  "notes": "TCC Website Features 0.9.8 and the owner's review fixes on staging\n\nPlugin 0.9.8:\n- New feature \"Cookie banner and preferences window in the church's look\"\n  (termly-look.php): Termly's banner and Preferences window get the site's\n  type, teal links and 48px buttons. Kept from WP Rocket's Remove Unused CSS.\n- sitewide-search.php keeps its styles from Remove Unused CSS (the search\n  box is now also on the page-not-found page).\n- Help tab and AI prompts updated.\n\nStaging content (backups and scripts in divi-exports/consistency-pass/):\n- Home tweaks, the 50 Years video/audio switch, policy pages, Contact Us\n  form, Events spacing, \"More groups\" cards, tablet and phone spacing.\n- Page not found: keeps the big 404 and friendly words, in the site's look.\n- Gradients: tried the guide's Dark Indigo start, then put back to Indigo\n  #1962a8 at the owner's request (\"too purple\").\n- Status lines and notes updated.",
+  "date": "2026-11-23T14:46:54Z"
 }
