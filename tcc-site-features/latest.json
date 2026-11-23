@@ -1,7 +1,7 @@
 {
-  "version": "0.9.6",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.9.6/tcc-site-features/tcc-site-features.zip",
-  "sha256": "11bbc5bad95e73461a075670640196b86827528b2231496b717bdf06aab9e52f",
-  "notes": "TCC Website Features 0.9.6: two phone-width fixes\n\n- Community Groups: on phones the Anyone / Co-ed / Women / Men buttons sit two to a row,\n  all the same width, instead of Men alone on a stretched second row.\n- Sermons: on phones 480px wide or less the four menus sit one per row, so words like\n  \"All speakers\" are no longer cut short.\n- Help tab and AI prompts updated to match.\n\nTested on staging at 375 and 768 wide. Nothing on the live site was changed.",
-  "date": "2026-11-23T03:32:06Z"
+  "version": "0.9.7",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.9.7/tcc-site-features/tcc-site-features.zip",
+  "sha256": "453e47cf336b0c24f4d401de7db0dea6b2720d4607eecdea2bea3e64915e9df3",
+  "notes": "TCC Website Features 0.9.7: filter bars preview in the Divi editor\n\n- Sermons: the filter bar is styled in the Divi editor too, as it is on the website\n  (before, the editor showed plain words and bare menus).\n- Community Groups: the filter bar shows in the Divi editor as a plain preview, with a\n  grey note saying the buttons and filtering work on the website (before, it was hidden there).\n- Nothing changes for visitors. Help tab and AI prompts updated.\n\nTested on staging in the Divi editor and signed out. Nothing on the live site was changed.",
+  "date": "2026-11-23T04:08:03Z"
 }
