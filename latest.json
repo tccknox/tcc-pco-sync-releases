@@ -1,7 +1,7 @@
 {
-  "version": "0.10.2",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.10.2/tcc-pco-sync.zip",
-  "sha256": "9bf0353136e59dc8522ed5712c3a0ba9ed3ea6c26bca41257600d77d2d25ca5e",
-  "notes": "TCC Website Features 0.7.1 and Planning Center Sync 0.10.2: recurring events shown once with a repeats line, Trinity Talk fixes\n\nAlso the open items and rollback steps for recurring events and the\nministry pages, notes for the event feeds, New Here and Trinity Talk,\nand the Next Steps and recurring-events mock-ups.",
-  "date": "2026-11-23T19:24:27Z"
+  "version": "0.10.3",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/v0.10.3/tcc-pco-sync.zip",
+  "sha256": "d990ec80f03a1fe00d90fb8ac8999bee99e3886058ef67eb12f53c8c3c2c84d3",
+  "notes": "Planning Center Sync 0.10.3: security fixes\n\n- Any HTML in an event's name or location is removed as it arrives from\n  Planning Center.\n- Pictures are only taken from Planning Center.\n- The Settings screen now explains that the token can do whatever its\n  Planning Center person can.\n- When the website has file editing switched off (SiteGround Security's\n  \"Disable Themes & Plugins Editor\"), the code pages can be read and copied\n  but not saved.\n- Updates are only taken from the exact release address.",
+  "date": "2026-11-24T03:34:51Z"
 }
