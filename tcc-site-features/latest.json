@@ -1,7 +1,7 @@
 {
-  "version": "0.12.0",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.12.0/tcc-site-features/tcc-site-features.zip",
-  "sha256": "91cd5f0a216628fa0220e7f96920c6615288c55973466fbc1a50a7512eca853f",
-  "notes": "TCC Website 0.12.0: one plugin, with Planning Center events built in\n\n- TCC Planning Center Sync is now part of this plugin, which is renamed\n  \"TCC Website\". Volunteers have one plugin to look after: switch it off and\n  the website stops working the way it should.\n- Planning Center events has its own switch on TCC Website > Features. Off, it\n  stops the hourly check and hides its screen, the Dashboard box and the box\n  on each event. It starts off on a new install.\n- One menu: TCC Website > Planning Center, Features, Search and Help. The\n  Planning Center help is now a section of the Help page.\n- The Dashboard box counts \"on the website\" the same way the Planning Center\n  tab does.\n- Before installing: deactivate and delete the old TCC Planning Center Sync\n  plugin. Its settings carry over because the names are unchanged. If they\n  were deleted, set Planning Center up again: switch it on, paste the\n  Application ID and Secret, and redo Tags, Rooms and the default graphic.",
-  "date": "2026-11-24T15:34:31Z"
+  "version": "0.12.1",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.12.1/tcc-site-features/tcc-site-features.zip",
+  "sha256": "77933570b8620bb93e383b768f9b3243e5b2f3896193fedcfd9f1bc198401356",
+  "notes": "TCC Website 0.12.1: signed-out visitors get the page's own styles again\n\nDivi 5 prints its default styles inside each page. WP Rocket's\n\"Remove Unused CSS\" leaves that block where it is, after its own trimmed\nblock, so Divi's defaults beat the page's settings in WP Rocket's saved\ncopies (the home page text was 14px instead of 20px for signed-out\nvisitors). \"No flash of unstyled page\" now moves Divi's block back in\nfront while WP Rocket builds each saved copy. Help tab and AI prompts\nupdated. After updating: WP Rocket > Clear Used CSS, then Clear and\nPreload Cache.",
+  "date": "2026-11-24T15:47:50Z"
 }
