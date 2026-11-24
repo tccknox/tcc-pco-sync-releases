@@ -1,7 +1,7 @@
 {
-  "version": "0.12.3",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.12.3/tcc-site-features/tcc-site-features.zip",
-  "sha256": "ea8d892295c948db2a72249df5cc360e9d765556eca6a7d05f664407bba1986f",
-  "notes": "TCC Website 0.12.3: password-protected events stay private, and a safer Planning Center notice\n\nFrom the code audit of 24 November 2026:\n- A password-protected event no longer puts its words into its search\n  description or link preview (event-search-text).\n- Site search leaves out password-protected upcoming events, like other\n  protected pages (sitewide-search).\n- The search card's picture address is quoted inside its style.\n- The Planning Center screen's message after a button is kept for a\n  minute on the website instead of being read from the page address, so\n  a link from someone else cannot show made-up words there.\n\nNew tests in tests/playground/tests/security-fixes.php; all 114 pass in\nWordPress Playground.",
-  "date": "2026-11-24T17:31:32Z"
+  "version": "0.13.2",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.13.2/tcc-site-features/tcc-site-features.zip",
+  "sha256": "dddc2527d4724e50189543f65599f41c0a4873695b23acf4af445bcf7799ad0c",
+  "notes": "TCC Website 0.13.2: main menu helpers and \"Sermons\" in the admin menu\n\nThe last two church snippets in Code Snippets are now features of the plugin, each with its own switch and help:\n\n- Main menu helpers (was snippet 31): shows the red Watch Online button only on Sunday from 8:30am to 12 noon, makes the drop-down panels the same height, puts the cursor in the search box when Search is clicked, keeps the menu buttons showing in windows about 981 to 995 pixels wide, and closes the phone menu when a window changes to the phone layout. A straight copy of the snippet.\n- Sermons, not Posts, in the admin menu (was snippet 7): calls posts \"Sermons\" in the left-hand admin menu and in \"+ New\" on the top bar. It now checks that \"+ New > Post\" is there before renaming it, which the snippet did not.\n\nThe help no longer asks volunteers to keep the old snippets: on staging they are in the Snippets Trash, and a copy of each is in the repository's snippets folder.\n\nChecked on staging with both snippets switched off: all 22 features working, the header at 1920, 1440, 995, 768 and 375 wide, and the admin menu. All 145 Playground tests pass.",
+  "date": "2026-11-24T21:42:52Z"
 }
