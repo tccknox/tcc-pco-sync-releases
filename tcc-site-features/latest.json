@@ -1,7 +1,7 @@
 {
-  "version": "0.12.2",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.12.2/tcc-site-features/tcc-site-features.zip",
-  "sha256": "3eea9236b0a511fc3901137bd8777573e6d0d3a2f10690bb67fb77adba7b7c7a",
-  "notes": "TCC Website 0.12.2: the signed-out style fix now runs after WP Rocket\n\n0.12.1 moved Divi's default styles in front of WP Rocket's trimmed\nstyles, but ran before WP Rocket had written that block into the page,\nso it did nothing. It now runs last. After updating: WP Rocket > Clear\nUsed CSS, then Clear and Preload Cache.",
-  "date": "2026-11-24T16:36:07Z"
+  "version": "0.12.3",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.12.3/tcc-site-features/tcc-site-features.zip",
+  "sha256": "ea8d892295c948db2a72249df5cc360e9d765556eca6a7d05f664407bba1986f",
+  "notes": "TCC Website 0.12.3: password-protected events stay private, and a safer Planning Center notice\n\nFrom the code audit of 24 November 2026:\n- A password-protected event no longer puts its words into its search\n  description or link preview (event-search-text).\n- Site search leaves out password-protected upcoming events, like other\n  protected pages (sitewide-search).\n- The search card's picture address is quoted inside its style.\n- The Planning Center screen's message after a button is kept for a\n  minute on the website instead of being read from the page address, so\n  a link from someone else cannot show made-up words there.\n\nNew tests in tests/playground/tests/security-fixes.php; all 114 pass in\nWordPress Playground.",
+  "date": "2026-11-24T17:31:32Z"
 }
