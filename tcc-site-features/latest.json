@@ -1,7 +1,7 @@
 {
-  "version": "0.10.0",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.10.0/tcc-site-features/tcc-site-features.zip",
-  "sha256": "49d52049bfb97d05cac45eb6bc02a11b4ccc58a0621b5c604725be6f6e6d87cf",
-  "notes": "TCC Website Features 0.10.0: church logo on sign-in and Dashboard tidy-up, writer names in search\n\n- New feature \"Church logo on the sign-in page and a tidier Dashboard\" does what the AGCA plugin did: the church logo on the sign-in page (now linked to the website), rounded sign-in box, no Register link, the logo at the top of the admin menu, rounded pop-out menus, and the unused Dashboard boxes and Help tab hidden.\n- Sitewide search now finds pieces by their writer's name (what WP Extended Search used to add), leaving out the church's own and other non-person accounts.\n- Help tab and AI prompts updated. On staging, AGCA, WP Extended Search and Divi Search Helper are switched off.",
-  "date": "2026-11-24T00:05:55Z"
+  "version": "0.11.0",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.11.0/tcc-site-features/tcc-site-features.zip",
+  "sha256": "e0529f159a231c3d3b3529dd2f19814156ddb1a4d483daa8120b97905fc034f1",
+  "notes": "TCC Website Features 0.11.0: pick sermon speakers from a list\n\n- A Speakers box on each sermon, straight under Categories: tick everyone who\n  spoke, choose the main speaker, add a new speaker without leaving the page.\n- The website shows every speaker, main speaker first, for example\n  \"Tyler Lynde & Amy Lynde\", on the sermon page, the cards, the Speaker filter\n  and site search.\n- The Author follows the main speaker when an Editor or Administrator saves.\n- Posts > Sermon speakers fills in older sermons once from their typed names,\n  with a preview, a list of sermons that need a person, and Undo.\n- The new switch, Sermon speakers, starts off. Switch it on under TCC Website >\n  Features, then run the fill-in.\n- Also includes the 0.10.1 security fixes.",
+  "date": "2026-11-24T03:22:40Z"
 }
