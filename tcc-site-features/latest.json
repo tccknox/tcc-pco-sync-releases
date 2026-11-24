@@ -1,7 +1,7 @@
 {
-  "version": "0.11.0",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.11.0/tcc-site-features/tcc-site-features.zip",
-  "sha256": "e0529f159a231c3d3b3529dd2f19814156ddb1a4d483daa8120b97905fc034f1",
-  "notes": "TCC Website Features 0.11.0: pick sermon speakers from a list\n\n- A Speakers box on each sermon, straight under Categories: tick everyone who\n  spoke, choose the main speaker, add a new speaker without leaving the page.\n- The website shows every speaker, main speaker first, for example\n  \"Tyler Lynde & Amy Lynde\", on the sermon page, the cards, the Speaker filter\n  and site search.\n- The Author follows the main speaker when an Editor or Administrator saves.\n- Posts > Sermon speakers fills in older sermons once from their typed names,\n  with a preview, a list of sermons that need a person, and Undo.\n- The new switch, Sermon speakers, starts off. Switch it on under TCC Website >\n  Features, then run the fill-in.\n- Also includes the 0.10.1 security fixes.",
-  "date": "2026-11-24T03:22:40Z"
+  "version": "0.12.0",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.12.0/tcc-site-features/tcc-site-features.zip",
+  "sha256": "91cd5f0a216628fa0220e7f96920c6615288c55973466fbc1a50a7512eca853f",
+  "notes": "TCC Website 0.12.0: one plugin, with Planning Center events built in\n\n- TCC Planning Center Sync is now part of this plugin, which is renamed\n  \"TCC Website\". Volunteers have one plugin to look after: switch it off and\n  the website stops working the way it should.\n- Planning Center events has its own switch on TCC Website > Features. Off, it\n  stops the hourly check and hides its screen, the Dashboard box and the box\n  on each event. It starts off on a new install.\n- One menu: TCC Website > Planning Center, Features, Search and Help. The\n  Planning Center help is now a section of the Help page.\n- The Dashboard box counts \"on the website\" the same way the Planning Center\n  tab does.\n- Before installing: deactivate and delete the old TCC Planning Center Sync\n  plugin. Its settings carry over because the names are unchanged. If they\n  were deleted, set Planning Center up again: switch it on, paste the\n  Application ID and Secret, and redo Tags, Rooms and the default graphic.",
+  "date": "2026-11-24T15:34:31Z"
 }
