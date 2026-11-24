@@ -1,7 +1,7 @@
 {
-  "version": "0.12.1",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.12.1/tcc-site-features/tcc-site-features.zip",
-  "sha256": "77933570b8620bb93e383b768f9b3243e5b2f3896193fedcfd9f1bc198401356",
-  "notes": "TCC Website 0.12.1: signed-out visitors get the page's own styles again\n\nDivi 5 prints its default styles inside each page. WP Rocket's\n\"Remove Unused CSS\" leaves that block where it is, after its own trimmed\nblock, so Divi's defaults beat the page's settings in WP Rocket's saved\ncopies (the home page text was 14px instead of 20px for signed-out\nvisitors). \"No flash of unstyled page\" now moves Divi's block back in\nfront while WP Rocket builds each saved copy. Help tab and AI prompts\nupdated. After updating: WP Rocket > Clear Used CSS, then Clear and\nPreload Cache.",
-  "date": "2026-11-24T15:47:50Z"
+  "version": "0.12.2",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.12.2/tcc-site-features/tcc-site-features.zip",
+  "sha256": "3eea9236b0a511fc3901137bd8777573e6d0d3a2f10690bb67fb77adba7b7c7a",
+  "notes": "TCC Website 0.12.2: the signed-out style fix now runs after WP Rocket\n\n0.12.1 moved Divi's default styles in front of WP Rocket's trimmed\nstyles, but ran before WP Rocket had written that block into the page,\nso it did nothing. It now runs last. After updating: WP Rocket > Clear\nUsed CSS, then Clear and Preload Cache.",
+  "date": "2026-11-24T16:36:07Z"
 }
