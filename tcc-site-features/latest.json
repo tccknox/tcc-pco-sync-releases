@@ -1,8 +1,8 @@
 {
-  "version": "0.14.7",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.14.7/tcc-site-features/tcc-site-features.zip",
-  "sha256": "a2248d7ccf9785b5454ccff72b1fa873df9fd67f53eba2c5e3efe64b2ab9edb0",
-  "signature": "f+0Nbgowpfhl9u6wr9IsTQCeIpF7iqRx9sBEXsD5idzzIzcIUX5dH2/ApOQReikdqu5l4qCP2z8B+pEGON0cCQ==",
-  "notes": "TCC Website 0.14.7: \"Learn more\" opens the Cookie Policy page\n\n- \"Learn more\" on the cookie banner now goes to the website's own Cookie\n  Policy page (/cookie-policy/) instead of Termly's small window. Termly has\n  no setting for this, so a short script (features/termly-look.js) catches\n  the click, or Enter or Space, just before Termly does. Ctrl/Cmd-click\n  opens a new tab. Screen readers hear it as a link.\n- If that page is not published, nothing is added and \"Learn more\" opens\n  Termly's window as before. Not added in the Divi editor.\n- Help tab, AI prompts, notes and rollback steps updated. New test file;\n  251 tests pass on PHP 8.3 and 7.4.",
-  "date": "2026-11-26T02:01:48Z"
+  "version": "0.14.8",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.14.8/tcc-site-features/tcc-site-features.zip",
+  "sha256": "b49e0d684bff3b0d72826b8970c86f8c8061f00962ec5af84519fa662ff5a1e0",
+  "signature": "QCq34OeRqx19HU88Agh6+BfMwS+w/BtaPBHXP4W2ZC4+a6izsOLPqC1bRRcxG8JToLba7xBwEyZxxB17pBGGDQ==",
+  "notes": "TCC Website 0.14.8: the main part of each page is marked for screen readers\n\n- New feature \"Main part of each page marked for screen readers\": adds\n  role=\"main\" to Divi's main-content box (between the header and the\n  footer) on every page a visitor sees, so screen readers can jump past\n  the header and menu. Nothing on the page looks different. Fixes\n  PageSpeed's \"Document does not have a main landmark\".\n- It leaves a page alone that has no such box or already has a main part,\n  and never runs in the admin or the Divi editor.\n- Help tab, AI prompts, notes and rollback steps updated. New test file;\n  254 tests pass on PHP 8.3.",
+  "date": "2026-11-26T04:00:07Z"
 }
