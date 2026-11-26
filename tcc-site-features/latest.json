@@ -1,8 +1,8 @@
 {
-  "version": "0.14.5",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.14.5/tcc-site-features/tcc-site-features.zip",
-  "sha256": "c89842e62cfe0a4489f08e276e304485da3a2b0df1a8924112c3353f9a88f5c1",
-  "signature": "VBU/HnY/bScsbanIEMJtTq/pvRWh6Y6/gnn61kfcJh07bH/7RyAVMwG5EfXh1+/jVe2sPlLlcz7c/AD4MxAIDQ==",
-  "notes": "TCC Website 0.14.5: a very small cookie banner\n\n- The cookie banner is now a small card in the bottom-left corner with one\n  short line: \"By using this site, you consent to cookies. The digital kind.\n  Learn more\", and a small Accept button. \"Learn more\" opens the Cookie\n  Policy. Termly's 60-word paragraph and its Privacy Policy link are no\n  longer shown in the banner (the Privacy Policy is still in the footer).\n- Where Termly shows a Decline button (Europe, California) the line reads\n  \"We'd like to use cookies. The digital kind.\" instead.\n- 13px words and 32px buttons in the banner; the Preferences window is\n  unchanged. On a phone the card spans the width and stays one row.\n- The words are on the \"content:\" lines in features/termly-look.css; Termly\n  has no setting for them. Which buttons show is set in Termly per region\n  (Tennessee: \"States with consumer privacy laws\", now Accept only).\n- Help tab, AI prompts, notes and rollback steps updated. Tests: 247 pass on\n  PHP 8.3 and 7.4.",
-  "date": "2026-11-25T18:10:37Z"
+  "version": "0.14.6",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.14.6/tcc-site-features/tcc-site-features.zip",
+  "sha256": "edd0cc767c7bea00457fec40b99db54de3a87c1483f5be32f3fa3cda47b85cd2",
+  "signature": "6+tlC2I9QjiWuyMUGq3gBnK/tB/qzkZ+YVtzofrr955uoHxTux+w+/KPoWtDCY9ePk6HYlqpOOkov2sEVh5KAA==",
+  "notes": "TCC Website 0.14.6: \"pastors and partners\" on Trinity Talk book pages\n\n- The line under a Trinity Talk book's name now says \"written by 11 of\n  Trinity's pastors and partners\" instead of \"pastors and members\". The\n  church calls its own people partners.\n- New test: the line says partners, and no Trinity Talk file uses the\n  word \"member\" or \"members\". Tests: 249 pass on PHP 8.3 and 7.4.\n\nSame day, in Divi on staging (not part of the plugin):\n- The phone menu's search button shows its magnifying glass again. The\n  button is an <input>, which cannot show the old ::after icon, so the\n  glass is now a white picture in the button's background (Global\n  Header custom CSS; copy in divi-exports/new-navigation-header/menu.css).\n- The Trinity Talk home page says \"written by Trinity's pastors and\n  partners\".\n\nNotes, rollback steps, open items and CLAUDE.md updated.",
+  "date": "2026-11-26T01:42:10Z"
 }
