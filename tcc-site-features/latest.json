@@ -1,8 +1,8 @@
 {
-  "version": "0.14.6",
-  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.14.6/tcc-site-features/tcc-site-features.zip",
-  "sha256": "edd0cc767c7bea00457fec40b99db54de3a87c1483f5be32f3fa3cda47b85cd2",
-  "signature": "6+tlC2I9QjiWuyMUGq3gBnK/tB/qzkZ+YVtzofrr955uoHxTux+w+/KPoWtDCY9ePk6HYlqpOOkov2sEVh5KAA==",
-  "notes": "TCC Website 0.14.6: \"pastors and partners\" on Trinity Talk book pages\n\n- The line under a Trinity Talk book's name now says \"written by 11 of\n  Trinity's pastors and partners\" instead of \"pastors and members\". The\n  church calls its own people partners.\n- New test: the line says partners, and no Trinity Talk file uses the\n  word \"member\" or \"members\". Tests: 249 pass on PHP 8.3 and 7.4.\n\nSame day, in Divi on staging (not part of the plugin):\n- The phone menu's search button shows its magnifying glass again. The\n  button is an <input>, which cannot show the old ::after icon, so the\n  glass is now a white picture in the button's background (Global\n  Header custom CSS; copy in divi-exports/new-navigation-header/menu.css).\n- The Trinity Talk home page says \"written by Trinity's pastors and\n  partners\".\n\nNotes, rollback steps, open items and CLAUDE.md updated.",
-  "date": "2026-11-26T01:42:10Z"
+  "version": "0.14.7",
+  "download": "https://raw.githubusercontent.com/tccknox/tcc-pco-sync-releases/site-features-v0.14.7/tcc-site-features/tcc-site-features.zip",
+  "sha256": "a2248d7ccf9785b5454ccff72b1fa873df9fd67f53eba2c5e3efe64b2ab9edb0",
+  "signature": "f+0Nbgowpfhl9u6wr9IsTQCeIpF7iqRx9sBEXsD5idzzIzcIUX5dH2/ApOQReikdqu5l4qCP2z8B+pEGON0cCQ==",
+  "notes": "TCC Website 0.14.7: \"Learn more\" opens the Cookie Policy page\n\n- \"Learn more\" on the cookie banner now goes to the website's own Cookie\n  Policy page (/cookie-policy/) instead of Termly's small window. Termly has\n  no setting for this, so a short script (features/termly-look.js) catches\n  the click, or Enter or Space, just before Termly does. Ctrl/Cmd-click\n  opens a new tab. Screen readers hear it as a link.\n- If that page is not published, nothing is added and \"Learn more\" opens\n  Termly's window as before. Not added in the Divi editor.\n- Help tab, AI prompts, notes and rollback steps updated. New test file;\n  251 tests pass on PHP 8.3 and 7.4.",
+  "date": "2026-11-26T02:01:48Z"
 }
